@@ -6,11 +6,11 @@ Related: [12 equal temperament](https://en.wikipedia.org/wiki/12_equal_temperame
 
 ### mtof formula
 
-<img src="example/mtof.png" width="210">
+<img src="example/mtof.png">
 
 ### ftom formula
 
-<img src="example/ftom.png" width="238">
+<img src="example/ftom.png">
 
 ## Ratio
 
@@ -18,11 +18,11 @@ From the previous, you can obtain a new formula for difference in semitones and 
 
 ### st to ratio
 
-<img src="example/mtof.png" width="210">
+<img src="example/sttor.png">
 
 ### ratio to st
 
-<img src="example/mtof.png" width="210">
+<img src="example/rtost.png">
 
 ------------------------------------------------------
 
