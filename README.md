@@ -12,6 +12,18 @@ External for Windows version of Max 8 (Max/MSP). Custom versions of the very wel
 
 This project contains, in addition, the prebuilt externals in .mxe64 format and a help file for each one.
 
+## Ratio
+
+From the previous, you can obtain a new formula for difference in semitones and frequency ratio
+
+### st to ratio
+
+<img src="example/mtof.png" width="210">
+
+### ratio to st
+
+<img src="example/mtof.png" width="210">
+
 ------------------------------------------------------
 
 # Versions History
