@@ -1,10 +1,10 @@
-#include "fl_ftom.h"
+#include "flftom.h"
 
 void C74_EXPORT main() {
 
 	t_class *c;
 
-	c = class_new("fl_ftom",(method)fl_ftom_new, (method)NULL,sizeof(t_fl_ftom), 0, 0);
+	c = class_new("flftom",(method)fl_ftom_new, (method)NULL,sizeof(t_fl_ftom), 0, 0);
 	class_addmethod(c, (method)fl_ftom_assist,"assist", A_CANT, 0);
 	class_addmethod(c,(method)fl_ftom_entero, "int", A_LONG, 0);
 	class_addmethod(c,(method)fl_ftom_float, "float", A_LONG, 0);

@@ -1,10 +1,10 @@
-#include "fl_mtof.h"
+#include "flmtof.h"
 
 void C74_EXPORT main() {
 
 	t_class *c;
 
-	c = class_new("fl_mtof",(method)fl_mtof_new, (method)NULL,sizeof(t_fl_mtof), 0, 0);
+	c = class_new("flmtof",(method)fl_mtof_new, (method)NULL,sizeof(t_fl_mtof), 0, 0);
 	class_addmethod(c, (method)fl_mtof_assist,"assist", A_CANT, 0);
 
 	class_addmethod(c, (method)fl_mtof_entero, "int", A_LONG, 0);

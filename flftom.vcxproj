@@ -119,10 +119,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="fl_mtof.c" />
+    <ClCompile Include="flftom.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="fl_mtof.h" />
+    <ClInclude Include="flftom.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
