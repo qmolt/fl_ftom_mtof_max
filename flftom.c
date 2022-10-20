@@ -51,7 +51,7 @@ void fl_ftom_assist(t_fl_ftom *x, void *b, long msg, long arg, char *dst)
 
 void fl_ftom_entero(t_fl_ftom *x, long n) 
 {
-	fl_ftom_float(x, (float)n);
+	fl_ftom_float(x, (double)n);
 }
 
 void fl_ftom_float(t_fl_ftom *x, double f) 

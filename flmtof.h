@@ -2,7 +2,7 @@
 #include "ext_obex.h"
 #include "z_dsp.h"  
 
-#define FREC0_STDR 261, 625565300598
+#define FREC0_STDR 261.625565300598
 #define DIV_OCT_STDR 12.0
 #define MULT_OCT_STDR 2.0
 #define MIDI0_STDR 60.0

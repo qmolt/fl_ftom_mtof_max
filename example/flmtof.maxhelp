@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 984.0, 657.0 ],
+		"rect" : [ 42.0, 84.0, 984.0, 658.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,39 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"format" : 6,
+					"id" : "obj-10",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 38.0, 146.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-7",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 220.0, 146.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
 					"id" : "obj-42",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 120.0, 70.0, 73.0, 22.0 ]
+					"patching_rect" : [ 375.0, 128.0, 73.0, 22.0 ]
 				}
 
 			}
@@ -57,8 +83,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 347.0, 142.0, 75.0, 74.0 ],
-					"text" : "by default\nafin_a4: 440\ndiv_oct: 12\nmult_oct: 2\na4: 69"
+					"patching_rect" : [ 694.0, 152.0, 115.0, 74.0 ],
+					"text" : "by default\nafin_a4: 261. 62556\ndiv_oct: 12\nmult_oct: 2\na4: 60"
 				}
 
 			}
@@ -71,7 +97,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 202.0, 70.0, 50.0, 22.0 ]
+					"patching_rect" : [ 457.0, 128.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -84,7 +110,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 365.0, 70.0, 50.0, 22.0 ]
+					"patching_rect" : [ 620.0, 128.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -95,7 +121,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 365.0, 94.0, 54.0, 22.0 ],
+					"patching_rect" : [ 620.0, 152.0, 54.0, 22.0 ],
 					"text" : "midi0 $1"
 				}
 
@@ -107,7 +133,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 278.0, 94.0, 71.0, 22.0 ],
+					"patching_rect" : [ 533.0, 152.0, 71.0, 22.0 ],
 					"text" : "mult_oct $1"
 				}
 
@@ -121,7 +147,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 278.0, 70.0, 50.0, 22.0 ]
+					"patching_rect" : [ 533.0, 128.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -132,7 +158,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 202.0, 94.0, 63.0, 22.0 ],
+					"patching_rect" : [ 457.0, 152.0, 63.0, 22.0 ],
 					"text" : "div_oct $1"
 				}
 
@@ -144,7 +170,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 94.0, 52.0, 22.0 ],
+					"patching_rect" : [ 375.0, 152.0, 52.0, 22.0 ],
 					"text" : "frec0 $1"
 				}
 
@@ -183,7 +209,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 120.0, 255.0, 90.0, 22.0 ]
+					"patching_rect" : [ 38.0, 255.0, 90.0, 22.0 ]
 				}
 
 			}
@@ -194,7 +220,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 120.0, 210.0, 38.0, 22.0 ],
+					"patching_rect" : [ 38.0, 210.0, 38.0, 22.0 ],
 					"text" : "flmtof"
 				}
 
@@ -204,6 +230,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -287,6 +320,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
