@@ -3,10 +3,10 @@
 #include "z_dsp.h"  
 #include <math.h>
 
-#define FREC0_STDR 440.0
+#define FREC0_STDR 261.625565300598
 #define DIV_OCT_STDR 12.0
 #define MULT_OCT_STDR 2.0
-#define MIDI0_STDR 69.0
+#define MIDI0_STDR 60.0
 
 enum INLETS { I_INPUT, NUM_INLETS };
 enum OUTLETS { O_OUTPUT, NUM_OUTLETS };
@@ -14,10 +14,10 @@ enum OUTLETS { O_OUTPUT, NUM_OUTLETS };
 typedef struct {
 
 	t_object obj;
-	float frec0;
-	float oct;
-	float div;
-	float midi0;
+	double frec0;
+	double oct;
+	double div;
+	double midi0;
 	void *m_outlet;
 
 } t_fl_ftom;

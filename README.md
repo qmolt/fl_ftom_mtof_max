@@ -28,5 +28,5 @@ From the previous, you can obtain a new formula for difference in semitones and 
 
 # Versions History
 
-**v0.1**
 - Commented out the infinite value restrictions
+- Default reference frequency and midi note are now midi0=60 and f0=261.625565300598 (instead of A4=440 and f0=440)
