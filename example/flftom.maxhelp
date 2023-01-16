@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 84.0, 984.0, 658.0 ],
+		"rect" : [ 42.0, 83.0, 984.0, 660.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -83,8 +83,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 694.0, 152.0, 115.0, 74.0 ],
-					"text" : "by default\nafin_a4: 261. 62556\ndiv_oct: 12\nmult_oct: 2\na4: 60"
+					"patching_rect" : [ 694.0, 152.0, 117.0, 74.0 ],
+					"text" : "by default\nafin_C4: 261.62556\ndiv_oct: 12\nmult_oct: 2\nC4: 60"
 				}
 
 			}

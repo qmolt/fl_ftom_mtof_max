@@ -95,6 +95,8 @@ void fl_ftom_div(t_fl_ftom *x, t_symbol *s, long argc, t_atom *argv)
 
 	if (div <= 0.0) { return; }
 	x->div = div;
+
+	x->midi0 = 5 * div;
 }
 void fl_ftom_midi0(t_fl_ftom *x, t_symbol *s, long argc, t_atom *argv)
 {

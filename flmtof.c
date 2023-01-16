@@ -103,6 +103,8 @@ void fl_mtof_div(t_fl_mtof *x, t_symbol *s, long argc, t_atom *argv)
 	if (div <= 0) { return; }
 
 	x->div = div;
+
+	x->midi0 = 5 * div;
 }
 void fl_mtof_midi0(t_fl_mtof *x, t_symbol *s, long argc, t_atom *argv)
 {
